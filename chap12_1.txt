@@ -1,0 +1,64 @@
+12.1.1
+a)
+/Products/Maker/PC/RAM
+result:
+<RAM>1024</RAM>
+<RAM>512</RAM>
+<RAM>512</RAM>
+<RAM>1024</RAM>
+...
+
+b)
+/Products/Maker/*/@price
+//@price
+
+c)
+/Products/Maker/Printer
+//Printer
+
+d)
+/Products/Maker[Printer/Type = "laser"]
+//Maker[Printer/Type="laser"]
+
+e)
+/Products/Maker[PC or Laptop]
+//Maker[PC or Laptop]
+
+f)
+/Products/Maker/PC[HardDisk >= 200]/@model
+//PC[HardDisk >= 200]/@model
+
+g)
+/Products/Maker[PC[2]]
+//Maker[PC[2]]
+
+
+12.1.2
+a)
+/Ships/Class/Ship/@name
+//Ship/@name
+
+b)
+/Ships/Class[@displacement > 35000]
+//Class[@displacement > 35000]
+
+c)
+/Ships/Class/Ship[@launched < 1917]
+//Ship[@launched < 1927]
+
+d)
+/Ships/Class/Ship[Battle/@outcome = "sunk"]
+//Ship[Battle/@outcome = "sunk"]
+
+e)
+/Ships/Class/Ship[@name = ../@name]/@launched
+//Ship[@name = ../@name]/@launched
+
+f)
+/Ships/Class/Ship[Battle]
+//Ship[Battle]
+
+g)
+/Ships/Class/Ship[Battle[2]]
+//Ship[Battle[2]]
+

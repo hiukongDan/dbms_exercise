@@ -1,0 +1,25 @@
+<!-- 11.4.3 -->
+<!-- a -->
+<!DOCTYPE Movies[
+	<!ELEMENT Movies (Movie*)>
+	<!ELEMENT Movie (Genre?)>
+		<!ATTLIST Movie
+			Title ID #REQUIRED
+			Year  ID #REQUIRED
+		>
+	<!ELEMENT Genre (comedy|drama|sciFi|teen)>
+]>
+
+
+<!-- b -->
+<!DOCTYPE Stars[
+	<!ELEMENT Stars (Star*)>
+	<!ELEMENT Star (Name, Address, StarredIn*)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Address (#PCDATA)>
+	<!ELEMENT StarredIn EMPTY>
+		<!ATTLIST StarredIn
+			title  ID  #REQUIRED
+			year   ID  #REQUIRED
+		>
+]>

@@ -1,0 +1,253 @@
+<? xml version = "1.0" encoding = "utf-8" standalone = "yes" ?>
+<StarMovieData>
+	<Star starID = "cf" starredIn = "sw">
+		<Name>Carrie Fisher</Name>
+		<Address>
+			<Street>123 Maple St.</Street>
+			<City>Hollywood</City>
+		</Address>
+		<Address>
+			<Stree>5 Locust Ln.</Stree>
+			<City>Malibu</City>
+		</Address>
+	</Star>
+	<Star starID = "mh" starredIn = "sw">
+		<Name>Mark Hamill</Name>
+		<Address>
+			<Street>456 Oak Rd.</Street>
+			<City>Brentwood</City>
+		</Address>
+	</Star>
+	<Movie movieID = "sw" starsOf = "cf mh">
+		<Title>Star Wars</Title>
+		<Year>1977</Year>
+	</Movie>
+</StarMovieData>
+
+<!--11.3.1-->
+<!-- a -->
+<? xml version = "1.0" encoding = "utf-8" standalone = "yes" ?>
+<StarMovieData>
+	<Star starID = "cf" starredIn = "sw esb roj">
+		<Name>Carrie Fisher</Name>
+		<Address>
+			<Street>123 Maple St.</Street>
+			<City>Hollywood</City>
+		</Address>
+		<Address>
+			<Stree>5 Locust Ln.</Stree>
+			<City>Malibu</City>
+		</Address>
+	</Star>
+	<Star starID = "mh" starredIn = "sw esb roj">
+		<Name>Mark Hamill</Name>
+		<Address>
+			<Street>456 Oak Rd.</Street>
+			<City>Brentwood</City>
+		</Address>
+	</Star>
+	<Movie movieID = "sw" starsOf = "cf mh">
+		<Title>Star Wars</Title>
+		<Year>1977</Year>
+	</Movie>
+	<Movie movieID = "esb" starsOf = "cf mh">
+		<Title>The Empire Strikes Back</Title>
+		<Year>1980</Year>
+	</Movie>
+	<Movie movieID = "roj" starsOf = "cf mh">
+		<Title>Return of the Jedi</Title>
+	</Movie>
+</StarMovieData>
+
+<!-- b -->
+<? xml version = "1.0" encoding = "utf-8" standalone = "yes" ?>
+<StarMovieData>
+	<Star starID = "cf" starredIn = "sw esb roj">
+		<Name>Carrie Fisher</Name>
+		<Address>
+			<Street>123 Maple St.</Street>
+			<City>Hollywood</City>
+		</Address>
+		<Address>
+			<Stree>5 Locust Ln.</Stree>
+			<City>Malibu</City>
+		</Address>
+	</Star>
+	<Star starID = "mh" starredIn = "sw esb roj">
+		<Name>Mark Hamill</Name>
+		<Address>
+			<Street>456 Oak Rd.</Street>
+			<City>Brentwood</City>
+		</Address>
+	</Star>
+	<Star starID = "hf" starredIn = "esb roj fw">
+		<Name>Harrison Ford</Name>
+	</Star>
+	<Movie movieID = "sw" starsOf = "cf mh">
+		<Title>Star Wars</Title>
+		<Year>1977</Year>
+	</Movie>
+	<Movie movieID = "esb" starsOf = "cf mh">
+		<Title>The Empire Strikes Back</Title>
+		<Year>1980</Year>
+	</Movie>
+	<Movie movieID = "roj" starsOf = "cf mh">
+		<Title>Return of the Jedi</Title>
+		<Year>1983</Year>
+	</Movie>
+	<Movie movieID = "fw" starsOf = "hf">
+		<Title>Firewall</Title>
+		<Year>2006</Year>
+	</Movie>
+</StarMovieData>
+
+<!-- c -->
+<? xml version = "1.0" encoding = "utf-8" standalone = "yes" ?>
+<StarMovieData>
+	<Star starID = "cf" starredIn = "sw esb roj hahs">
+		<Name>Carrie Fisher</Name>
+		<Address>
+			<Street>123 Maple St.</Street>
+			<City>Hollywood</City>
+		</Address>
+		<Address>
+			<Stree>5 Locust Ln.</Stree>
+			<City>Malibu</City>
+		</Address>
+	</Star>
+	<Star starID = "mh" starredIn = "sw esb roj">
+		<Name>Mark Hamill</Name>
+		<Address>
+			<Street>456 Oak Rd.</Street>
+			<City>Brentwood</City>
+		</Address>
+	</Star>
+	<Star starID = "hf" starredIn = "esb roj fw">
+		<Name>Harrison Ford</Name>
+	</Star>
+	<Movie movieID = "sw" starsOf = "cf mh">
+		<Title>Star Wars</Title>
+		<Year>1977</Year>
+	</Movie>
+	<Movie movieID = "esb" starsOf = "cf mh">
+		<Title>The Empire Strikes Back</Title>
+		<Year>1980</Year>
+	</Movie>
+	<Movie movieID = "roj" starsOf = "cf mh">
+		<Title>Return of the Jedi</Title>
+		<Year>1983</Year>
+	</Movie>
+	<Movie movieID = "fw" starsOf = "hf">
+		<Title>Firewall</Title>
+		<Year>2006</Year>
+	</Movie>
+	<Movie movieID = "hahs" starsOf = "cf">
+		<Title>Hannah and Her Sisters</Title>
+		<Year>1985</Year>
+	</Movie>
+</StarMovieData>
+
+<!-- d -->
+<? xml version = "1.0" encoding = "utf-8" standalone = "yes" ?>
+<StarMovieData>
+	<Star starID = "cf" starredIn = "sw esb roj hahs">
+		<Name>Carrie Fisher</Name>
+		<Address>
+			<Street>123 Maple St.</Street>
+			<City>Hollywood</City>
+		</Address>
+		<Address>
+			<Stree>5 Locust Ln.</Stree>
+			<City>Malibu</City>
+		</Address>
+	</Star>
+	<Star starID = "mh" starredIn = "sw esb roj">
+		<Name>Mark Hamill</Name>
+		<Address>
+			<Street>456 Oak Rd.</Street>
+			<City>Brentwood</City>
+		</Address>
+	</Star>
+	<Star starID = "hf" starredIn = "esb roj fw">
+		<Name>Harrison Ford</Name>
+	</Star>
+	<Star starID = "md" starredIn = "bi">
+		<Name>Matt Damon</Name>
+	</Star>
+	<Movie movieID = "sw" starsOf = "cf mh">
+		<Title>Star Wars</Title>
+		<Year>1977</Year>
+	</Movie>
+	<Movie movieID = "esb" starsOf = "cf mh">
+		<Title>The Empire Strikes Back</Title>
+		<Year>1980</Year>
+	</Movie>
+	<Movie movieID = "roj" starsOf = "cf mh">
+		<Title>Return of the Jedi</Title>
+		<Year>1983</Year>
+	</Movie>
+	<Movie movieID = "fw" starsOf = "hf">
+		<Title>Firewall</Title>
+		<Year>2006</Year>
+	</Movie>
+	<Movie movieID = "hahs" starsOf = "cf">
+		<Title>Hannah and Her Sisters</Title>
+		<Year>1985</Year>
+	</Movie>
+	<Movie movieID = "bi" starsOf = "md">
+		<Title>The Bourne Identity</Title>
+		<Year>2002</Year>
+	</Movie>
+</StarMovieData>
+
+
+<!-- 11.3.2 -->
+<!DOCTYPE BankData[
+	<!ELEMENT Customer (Address, Phone)>
+		<!ATTLIST Customer
+			name CDATA #REQUIRED
+			SSNo ID	   #REQUIRED
+			AcountOwned IDREFS  #REQUIRED
+		>
+	<!ELEMENT Address (Street, City)>
+	<!ElEMENT Street (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	<!ELEMENT Phone (#PCDATA)>
+	
+	<!ELEMENT BankAcount (Balance)>
+		<!ATTLIST BankAcount
+			Numbers	ID #REQUIRED
+			Type	(savings|checking) #REQUIRED
+			Owner	IDREFS	#REQUIRED
+		>
+	<!ELEMENT Balance (#PCDATA)>
+]>
+
+
+<!-- 11.3.3 -->
+<!DOCTYPE PlayingData>[
+	<!ELEMENT Team (Name, Player*, TeamCaptain, Color)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT Player (Name)>
+	<!ELEMENT TeamCaptain (Player)>
+	<!ELEMENT Color	(#PCDATA>
+	<!ELEMENT Fan (Name, FavTeam, FavPlayer, FavColor)>
+	<!ELEMENT FavTeam	(#PCDATA)>
+	<!ELEMENT FavPlayer (#PCDATA>
+	<!ELEMENT FavColor  (#PCDATA>
+]>
+
+
+<!-- 11.3.4 -->
+<!DOCTYPE Genealogy[
+	<!ELEMENT People EMPTY>
+		<!ATTLIST People
+			Name ID #REQUIRED
+			FATHER IDREFS #IMPLIED
+			MOTHER IDREFS #IMPLIED
+			CHILD  IDREFS #IMPLIED
+		>
+]>
+
+
+<!-- 11.3.5 -->
